@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react';
-//타입스크립트 상태관리
+//타입스크립트 상태관리  redux
 type Color = 'red' | 'orange' | 'yellow';
 
 type State = {
