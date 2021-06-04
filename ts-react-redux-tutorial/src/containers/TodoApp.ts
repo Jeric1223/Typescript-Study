@@ -5,7 +5,7 @@ import { toggleTodo, removeTodo, addTodo } from '../modules/todos';
 import TodoInsert from '../components/TodoInsert';
 import TodoList from '../components/TodoList';
 
-function TodoApp() {
+function TodoApp() { //타입스크립트 TODO만들기
   const todos = useSelector((state: RootState) => state.todos);
   const dispatch = useDispatch();
 
